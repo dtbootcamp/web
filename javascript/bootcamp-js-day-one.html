@@ -56,7 +56,7 @@ pre {
 }
 
 pre span {
-  color: #fff;
+  color: #ee00ff;
 }
 
 #netscape {
@@ -295,34 +295,34 @@ window.onload = function() {
 </code></pre></div>
 <div><em>Data Types</em></div>
 <div><pre><code>
-  // String
+  // <span>String</span>
   var name = "Bo Ris";
 </code></pre></div>
 <div><pre><code>
-  // Number
+  // <span>Number</span>
   var height = 3.3;
   var numBoroughs = 5;
 </code></pre></div>
 <div><pre><code>
-  // Boolean
+  // <span>Boolean</span>
   var superRad = true;
 
-  // JS also has 'truthy' and 'falsy' values 
+  // JS also has <span>'truthy'</span> and <span>'falsy'</span> values 
   // falsy: 0, "", null, undefined, NaN
 </code></pre></div>
 <div><pre><code>
-  // null
+  // <span>null</span>
   // var island = null;
 </code></pre></div>
 <div><pre><code>
-  // undefined
+  // <span>undefined</span>
   var myFavoriteSong;
   console.log(myFavoriteSong); // returns undefined
 </code></pre></div>
 <div><pre><code>
-  // Objects
+  // <span>Objects</span>
 
-  // consist of key value pairs.
+  // consist of <span>key : value</span> pairs.
 
   var fruit = {
     color : 'orange',
@@ -331,7 +331,7 @@ window.onload = function() {
   }; 
 </code></pre></div>
 <div><pre><code>
-  // we access properties in objects with
+  // we access <span>properties</span> in objects with
 
   // <span>bracket notation:</span>
   fruit['color'];
@@ -341,17 +341,17 @@ window.onload = function() {
   fruit.color;
 </code></pre></div>
 <div><pre><code>
-  // hint:
+  // <span>hint:</span>
   // everything in JS is an <span>object</span>.
 </code></pre></div>
 <div><em>Functions</em></div>
-<div>Are really important</div>
-<div>Are really really important</div>
-<div>Are really really really important</div>
-<div>Are really really really really important</div>
-<div>Are really really really really really important</div>
+<div>Are really <em>important</em></div>
+<div>Are really really <em>important</em></div>
+<div>Are really really really <em>important</em></div>
+<div>Are really really really really <em>important</em></div>
+<div>Are really really really really really <em>important</em></div>
 <div><pre><code>
-  // we define functions as either 
+  // we define <span>functions</span> as either 
 
   // <span>anonymous</span>
   var getData = function() {
@@ -365,15 +365,15 @@ window.onload = function() {
   }
 </code></pre></div>
 <div><em>Scope</em></div>
-<div>In JS only functions create scope.</div>
+<div>In JS only <em>functions</em> create <em>scope</em>.</div>
 <div><pre><code>
-  // Global vs. Local variables:
+  // <span>Global</span> vs. <span>Local</span> variables:
   
-  // a global variable
+  // a <span>global</span> variable
   var userName = "Alice";
   
   var createUser = function() {
-    // a local variable only accessible 
+    // a <span>local</span> variable only accessible 
     // from within our function
     var newName = "Jake";
     console.log(newName);
@@ -398,14 +398,14 @@ window.onload = function() {
   console.log(name);
   // prints "Olivia";
 </code></pre></div>
-<div>Comparisons</div>
+<div><em>Equality comparisons</em></div>
 <div><pre><code>
   // we can use 
   // == or ===
   // != or !==
   // the second way is preffered.
 </code></pre></div>
-<div>Timers</div>
+<div><em>Timers</em></div>
 <div><pre><code>
   // <span>setTimeout</span>
   // JS will wait x milliseconds before executing the code.
@@ -425,17 +425,19 @@ window.onload = function() {
   // the above code will continue for infinity every 2 seconds.
 
 </code></pre></div>
-<div> Accessing DOM elements</div>
+<div><em>Accessing DOM elements</em></div>
 <div><pre><code>
   var dotCanvas = document.querySelector('#dotCanvas');
   // will reference the DOM element with the id "dotCanvas";
-
+</code></pre></div>
+<div><em>Event Listeners</em></div>
+<div><pre><code>
   dotCanvas.addEventListener('mouseover', function(){
     // do something when the user mouses over the dotCanvas 
   }, false );
 </code></pre></div>
-<div>Where to go online to look for <em>help</em></div>
-<div> Mozilla Developers Network (MDN)</div>
+<div>Where to go <em>online</em> to look for <em>help</em></div>
+<div> Mozilla Developers Network (<em>MDN</em>)</div>
 <div> Stackoverflow</div>
 <div> The End! </div>
 <!-- // Google JavaScript Style Guide -->
