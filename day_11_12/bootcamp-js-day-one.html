@@ -132,6 +132,7 @@ window.onload = function() {
  This presentation borrows from Mani Nilchiani/@mani_art's Web3.JS
   http://maniartstudio.com/web3js/slides/session-1/
   and from JS For Cats
+
  -->
 <div>use &harr; to navigate</div>
 <div>Welcome to <em>Javascript</em></div>
@@ -224,15 +225,11 @@ window.onload = function() {
 <div>The basic setup to get going</div>
 <div><pre><code class="xml">
   &lt;!-- index.html --&gt;    
-  &lt;!doctype html&gt;
+  &lt;doctype html&gt;
   &lt;html&gt;
     &lt;head&gt;      
     &lt;/head&gt;
     &lt;body&gt;
-
-      &lt;!-- more html in here! --&gt;
-      &lt;!-- our script tag goes at the bottom of the body --&gt;
-
       &lt;script &gt;          
 
           // our JS goes here.
@@ -242,22 +239,6 @@ window.onload = function() {
           }
 
       &lt;/script&gt;  
-    &lt;/body&gt;
-  &lt;/html&gt;
-</code></pre></div>
-<div>Or link your JS to an external file:</div>
-<div><pre><code class="xml">
-  &lt;!-- index.html --&gt;    
-  &lt;!doctype html&gt;
-  &lt;html&gt;
-    &lt;head&gt;      
-    &lt;/head&gt;
-    &lt;body&gt;
-
-      &lt;!-- more html in here! --&gt;
-      &lt;!-- our script tag goes at the bottom of the body --&gt;
-    
-      &lt;script src="./js/main.js" &gt;&lt;/script&gt;  
     &lt;/body&gt;
   &lt;/html&gt;
 </code></pre></div>
@@ -302,13 +283,13 @@ window.onload = function() {
   var myFavoriteColor = "pantone 292";
 </code></pre></div>
 <div><pre><code>
-  // always use <span>var</span> when declaring variables.
+  // always use <span>var</span> when initializing* variables.
   
-  // in other words
-  currentVar = 5;
+  // in other words doing:
+  numStudents = 5;
 
-  // is not the same as 
-  var currentVar = 5;
+  // is not the same as doing: 
+  var numStudents = 5;
 </code></pre></div>
 <div><pre><code>
   // don't forget that <span>semicolon</span>!
@@ -349,9 +330,10 @@ window.onload = function() {
 
   // consist of <span>key : value</span> pairs.
 
-  var fruit = {
+  var valenciaOrange = {
     color : 'orange',
     type : 'citrus',
+    sizeCM: 5.4,
     tasty : true
   }; 
 </code></pre></div>
@@ -359,11 +341,11 @@ window.onload = function() {
   // we access <span>properties</span> in objects with
 
   // <span>bracket notation:</span>
-  fruit['color'];
+  valenciaOrange['color'];
 
   // or 
   // <span>dot notation:</span>
-  fruit.color;
+  valenciaOrange.color;
 </code></pre></div>
 <div><pre><code>
   // <span>hint:</span>
@@ -394,11 +376,11 @@ window.onload = function() {
 <div><pre><code>
   // <span>Global</span> vs. <span>Local</span> variables:
   
-  // a <span>global</span> variable
+  // a <span>global variable</span>
   var userName = "Alice";
   
   var createUser = function() {
-    // a <span>local</span> variable only accessible 
+    // a <span>local variable</span> only accessible 
     // from within our function
     var newName = "Jake";
     console.log(newName);
@@ -419,6 +401,9 @@ window.onload = function() {
   function createUser() {
     name = "Olivia";
   }
+  
+  // call our function createUser()
+  createUser();
 
   console.log(name);
   // prints "Olivia";
@@ -426,8 +411,14 @@ window.onload = function() {
 <div><em>Equality comparisons</em></div>
 <div><pre><code>
   // we can use 
-  // == or ===
-  // != or !==
+  // ==  
+  // !=
+
+  // OR
+
+  // ===
+  // !==
+
   // the second way is preffered.
 </code></pre></div>
 <div><em>Timing Functions</em></div>
@@ -453,7 +444,7 @@ window.onload = function() {
 <div><em>Accessing DOM elements</em></div>
 <div><pre><code>
   var dotCanvas = document.querySelector('#dotCanvas');
-  // will reference the DOM element with the id "dotCanvas";
+  // will reference the *first* DOM element with the id "dotCanvas";
 </code></pre></div>
 <div><em>Event Listeners</em></div>
 <div><pre><code>
@@ -462,9 +453,9 @@ window.onload = function() {
   }, false );
 </code></pre></div>
 <div>Where to go <em>online</em> to look for <em>help</em></div>
-<div> Mozilla Developers Network (<em>MDN</em>)</div>
-<div> Stackoverflow</div>
-<div> The End! </div>
+<div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Mozilla Developers Network</a> (<em>MDN</em>)</div>
+<div><a href="http://stackoverflow.com/">Stackoverflow</a></div>
+<div><i>The End!</i></div>
 <!-- // Google JavaScript Style Guide -->
 <div><pre><code></code></pre></div>
 
