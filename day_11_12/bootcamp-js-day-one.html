@@ -224,11 +224,15 @@ window.onload = function() {
 <div>The basic setup to get going</div>
 <div><pre><code class="xml">
   &lt;!-- index.html --&gt;    
-  &lt;doctype html&gt;
+  &lt;!doctype html&gt;
   &lt;html&gt;
     &lt;head&gt;      
     &lt;/head&gt;
     &lt;body&gt;
+
+      &lt;!-- more html in here! --&gt;
+      &lt;!-- our script tag goes at the bottom of the body --&gt;
+
       &lt;script &gt;          
 
           // our JS goes here.
@@ -238,6 +242,22 @@ window.onload = function() {
           }
 
       &lt;/script&gt;  
+    &lt;/body&gt;
+  &lt;/html&gt;
+</code></pre></div>
+<div>Or link your JS to an external file:</div>
+<div><pre><code class="xml">
+  &lt;!-- index.html --&gt;    
+  &lt;!doctype html&gt;
+  &lt;html&gt;
+    &lt;head&gt;      
+    &lt;/head&gt;
+    &lt;body&gt;
+
+      &lt;!-- more html in here! --&gt;
+      &lt;!-- our script tag goes at the bottom of the body --&gt;
+    
+      &lt;script src="./js/main.js" &gt;&lt;/script&gt;  
     &lt;/body&gt;
   &lt;/html&gt;
 </code></pre></div>
