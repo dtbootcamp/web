@@ -3,14 +3,14 @@ Parsons MFA Design & Technology
 Summer 2014
 
 ## Day One
-Presentation 
+Presentation, view [here](http://dtbootcamp.github.io/web/day_11_12/bootcamp-js-day-one.html#0) or download bootcamp-js-day-one.html and open locally. 
 
-Use the console in Chrome dev tools to show live examples and get students to follow along by typing things in the console.
+Ideally show students how to use the console in Chrome dev tools to illustrate examples from the slides and get students to follow along by typing things in the console.
 
 ## Day Two
 Dot App 
 
-Live code the app and have students follow along. With time permitting & if people aren't too lost explain the name spacing convention and why it's useful.
+Live code the app and have students follow along. With time permitting and if people aren't too lost explain the name spacing convention and why it's useful.
 
 
 
