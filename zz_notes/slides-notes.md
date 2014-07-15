@@ -61,8 +61,9 @@ html:
 
 “In this example the body * selector applies the rule to all elements inside body, at any hierarchy level, including the .stockUp class. So font-weight: bold; applied to the .corpName class is overridden by font-weight: normal; applied to all elements in the body.
 
-The use of the * selector should be minimized as it is a slow selector, especially when not used as the first element of a selector. Its use should be avoided as much as possible.”
-* from: https://developer.mozilla.org/en-US/docs/Web/CSS/Common_CSS_Questions
+The use of the * selector should be minimized as it is a slow selector, especially when not used as the first element of a selector. Its use should be avoided as much as possible.” 
+
+(from: https://developer.mozilla.org/en-US/docs/Web/CSS/Common_CSS_Questions)
 
 - 12: also mention that other types of psuedo classes exist, such as :before and :after. A full list [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
