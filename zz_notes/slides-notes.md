@@ -129,6 +129,7 @@ border: 3px solid #ccc;
 ### overall:  
 - great visuals but some text to compliment would be really helpful. Could be a separate document in the form of notes?
 - think this should be split into 2 separate slide shows. One titled “The Web Design Process” and another titled “The Box Model and Positioning with CSS”
+- mention the [collapsing margins problem](http://www.w3.org/TR/CSS2/box.html#collapsing-margins).
 
 ### individual slides:
 - 10: related: should we explain or at least mention templates that exist already such as bootstrap?
@@ -139,6 +140,71 @@ border: 3px solid #ccc;
 - 31: maybe add the word “flow”? ie: “…and occurs where it normally would in the document flow.”
 - 32: mention that the origin in all web layout 0,0 is the top-left corner.
 - 35: ended slide show without talking about position: fixed; Explain when / why you would want to use this.
+
+
+## Day 08: Media on Web
+### overall:
+- mention iframe?
+- mention methods of image cropping with and without CSS
+- mention image sprites
+- mention background images using CSS for layout vs. inline images using `<img>` tag for content
+- when using a background image and still want descriptive text for accessibility
+  - using the text-indent property can get rid of text from viewport: 
+```
+.logo {background: url(logo.png);display: block;height: 100px;width: 200px;
+text-indent: -9999px;}
+```
+
+### individual slides:
+- 06 & 09: mention html5 audio and video elements explained [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video).
+
+## Day ??: Floats
+### overall:
+- state types of float: `float: left / right / none`
+- other important properties of floats to mention:
+  - floated elements stack up to parent edge, then move down to next available edge
+  - if floated elements are a different height then the next shorter element will float against a taller element when moving down.
+  - if not enough horizontal room the element that appears first in the DOM will be placed at the top
+  - if both are floated right the first element in the html will be to the farthest right
+
+### individual slides:
+- 12: clearing floats, add:
+  - if the other items inside container are in danger of not extending beyond the floated item the parent container isn’t going to stretch to match the height of any floated items!
+  - necessary to clear the float of any floated items if it extends beyond the content of non-floated items.
+  - if all elements inside container are floating it will be necessary to clear the container as well.
+
+#### 3 methods for clearing floats
+1. Clear with a subsequent element
+   - next element has `clear: both;`
+
+2. Manual clearing
+   - next sibling element is empty and has `clear: both;`
+   - works for extending background or border of parent container to stretch to height of parent elements
+
+3. Clearfix
+   - recommended method
+   - add group class to parent container to self clear any elements inside of it.
+   - allows for not needing a subsequent or empty element to extend height of container.
+
+```
+/* clearfix */
+  
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+```
+
+
+
+
 
 
 
