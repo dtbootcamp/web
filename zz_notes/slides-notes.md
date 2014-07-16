@@ -2,21 +2,23 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 ======
 ## Day 01:
 
-- overall: make more visual? Add photos?
+### overall: 
+- make more visual? Add photos?
 
-feedback on individual slides:
+### individual slides:
 
 - 26: fix grammar: “Didn’t found 404 error HTTP respond” > “Didn’t find / 404 HTTP response”
-- 29: example of the bold tag <b> isn’t good because we don’t use it anymore. 
+- 29: example of the bold tag `<b>` isn’t good because we don’t use it anymore. 
 - 34: server side programming: add “databases” as an example. Not many people will know what SQL is.
 - 35: server side languages: add UNIX, Python, Ruby
 - 36: diagram is a little confusing, maybe re-work it?
 - 37: not all webpages use databases
 
 ## Day 02:
-overall: looks unfinished? Could explain more about DOM tags? Day Two seems a little weak?
+### overall: 
+- looks unfinished? Could explain more about DOM tags? Day Two seems a little weak?
 
-feedback on individual slides:
+### individual slides:
 
 - 02: to me, at the simplest level a web page is series of containers / boxes that contain text, images, color, etc. arranged in a certain order.
 - 05: “Often a page contains content that moves or changes while the rest of the page remains the same.” sounds strange, clarify?
@@ -29,8 +31,10 @@ feedback on individual slides:
 
 
 ## Day 03: More HTML and Intro to CSS
+### overall:
 !important: I don’t have power point on my machine so the fonts get messed up. Save as PDF?
 
+### individual slides:
 - 12 & 13: add some words to the un-ordered list tags so they aren’t empty (not sure if this is because I’m viewing the file in keynote)
 - 14: mention while it is possible to style html with these tags it is more preferable to do it with CSS
 - 26: also mention the `!important` method and inline style attribute `<div style="width:20px;height:20px;background-color:#ffcc00;"></div>`
@@ -39,6 +43,7 @@ feedback on individual slides:
 - for the homework assignment they can also create a boilerplate template that can be loaded in Sublime with a shortcut command (super helpful!)
 
 ## Day 04: CSS
+### individual slides:
 - 11: say why this (over specificity) is a bad practice and to be avoided at all costs! 
   - also this is somewhat confusing because you can use the wildcard * to select all elements, for example:
 
@@ -119,7 +124,21 @@ border: 3px solid #ccc;
 /* width style color */
 ```
 
+## Day 05: Web Design and Process
 
+### overall:  
+- great visuals but some text to compliment would be really helpful. Could be a separate document in the form of notes?
+- think this should be split into 2 separate slide shows. One titled “The Web Design Process” and another titled “The Box Model and Positioning with CSS”
+
+### individual slides:
+- 10: related: should we explain or at least mention templates that exist already such as bootstrap?
+- 12: Maybe use solid colors to show each area? Sort of hard to look at / comprehend if you’ve never heard of the box-model before, especially because borders on elements in websites are usually very thin.
+- 13: this diagram is confusing to look at, looks more like it should be used to explain z-index? Not clear from this that margin is not affected by background-color while padding is.
+- 15: more elements than just margins use these units, can be applied to other elements with CSS as well
+- 19 & 22: think the difference between border and padding would be more easy to see if you also visualized neighboring elements next to the box in the examples. Right now it’s hard to tell the difference between the two visually.
+- 31: maybe add the word “flow”? ie: “…and occurs where it normally would in the document flow.”
+- 32: mention that the origin in all web layout 0,0 is the top-left corner.
+- 35: ended slide show without talking about position: fixed; Explain when / why you would want to use this.
 
 
 
