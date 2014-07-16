@@ -32,7 +32,7 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 
 ## Day 03: More HTML and Intro to CSS
 ### overall:
-!important: I don’t have power point on my machine so the fonts get messed up. Save as PDF?
+~~!important: I don’t have power point on my machine so the fonts get messed up. Save as PDF?~~
 
 ### individual slides:
 - 12 & 13: add some words to the un-ordered list tags so they aren’t empty (not sure if this is because I’m viewing the file in keynote)
