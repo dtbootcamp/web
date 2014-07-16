@@ -217,8 +217,15 @@ text-indent: -9999px;}
 - 06 & 09: mention html5 audio and video elements explained [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video).
 
 
+## Day 11: Intro to JS
+### overall:
+### individual slides:
 
 
+## Day 12: JS Continued
+
+### overall:
+### individual slides:
 
 
 
