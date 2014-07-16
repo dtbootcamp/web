@@ -219,12 +219,22 @@ text-indent: -9999px;}
 
 ## Day 11: Intro to JS
 ### overall:
-### individual slides:
 
+__Stuff to add to the JS curriculum:__
+
+- examples of how JS is used on the web (maps, forms, drop down menus, etc), what is JS even for?
+- where does CSS end and JS begin?
+- images! GIFs!
+- mention Node JS
+- mention libraries
+
+### individual slides:
+- 9: go over language differences between Java (Processing) and JS
 
 ## Day 12: JS Continued
 
 ### overall:
+
 ### individual slides:
 
 
