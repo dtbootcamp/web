@@ -142,23 +142,7 @@ border: 3px solid #ccc;
 - 35: ended slide show without talking about position: fixed; Explain when / why you would want to use this.
 
 
-## Day 08: Media on Web
-### overall:
-- mention iframe?
-- mention methods of image cropping with and without CSS
-- mention image sprites
-- mention background images using CSS for layout vs. inline images using `<img>` tag for content
-- when using a background image and still want descriptive text for accessibility
-  - using the text-indent property can get rid of text from viewport: 
-```
-.logo {background: url(logo.png);display: block;height: 100px;width: 200px;
-text-indent: -9999px;}
-```
-
-### individual slides:
-- 06 & 09: mention html5 audio and video elements explained [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video).
-
-## Day ??: Floats
+## Day 06: Floats
 ### overall:
 - state types of float: `float: left / right / none`
 - other important properties of floats to mention:
@@ -202,6 +186,35 @@ text-indent: -9999px;}
 }
 ```
 
+__Additional Reading:__
+
+- stack overflow: [What is clearfix?](http://stackoverflow.com/questions/8554043/what-is-clearfix) 
+- css tricks: [Force Element To Self-Clear its Children](http://css-tricks.com/snippets/css/clear-fix/)
+
+## Day 07:	Floats Continued and Transitions
+
+### overall:
+- no slides yet
+
+### individual slides:
+
+- no slides yet
+
+## Day 08: Media on Web
+### overall:
+- mention iframe?
+- mention methods of image cropping with and without CSS
+- mention image sprites
+- mention background images using CSS for layout vs. inline images using `<img>` tag for content
+- when using a background image and still want descriptive text for accessibility
+  - using the text-indent property can get rid of text from viewport: 
+```
+.logo {background: url(logo.png);display: block;height: 100px;width: 200px;
+text-indent: -9999px;}
+```
+
+### individual slides:
+- 06 & 09: mention html5 audio and video elements explained [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video).
 
 
 
