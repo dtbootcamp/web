@@ -88,7 +88,16 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 
 ## Day 04: CSS
 ### overall:
-- describe what CSS3 is and what the new properties are that come with it
+- describe what CSS3 is and what the new properties are that come with it, such as:
+
+  - Border Radius
+  - Box Shadow
+  - Text Shadow
+  - Box Sizing
+  - Multiple Backgrounds
+  - Color
+  - Opacity
+  - Gradients
 
 ### individual slides:
 - 11: say why this (over specificity) is a bad practice and to be avoided at all costs! 
@@ -128,19 +137,19 @@ The use of the * selector should be minimized as it is a slow selector, especial
 
 - 17: most modern web browsers support the use of hsl() for color. Also mention the alpha property for rgba and hsla
 
-- 24: related, I found this interesting on [mdn] (https://developer.mozilla.org/en-US/docs/Web/CSS/font-size):
+- 24: related, I found this interesting on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size):
 “A popular technique to use throughout the document is to set the the font-size of the body to 62.5% (that is 62.5% of the default of 16px), which equates to 10px, or 0.625em. Now you can set the font-size for any elements using em units, with an easy-to-remember conversion, by dividing the px value by 10. This way 6px = 0.6em, 8px = 0.8em, 12px = 1.2em, 14px = 1.4em, 16px = 1.6em. For example: ”
 
-```
-body {
-  font-size: 62.5%; /* font-size 1em = 10px */
-}
-p {
-  font-size: 1.6em; /* 1.6em = 16px */
-}
-```
+  ```
+  body {
+    font-size: 62.5%; /* font-size 1em = 10px */
+  }
+  p {
+    font-size: 1.6em; /* 1.6em = 16px */
+  }
+  ```
 
-“The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.”
+- “The em is a very useful unit in CSS, since it can adapt automatically to the font that the reader chooses to use.”  
 
 - 27: Might be a good time to mention the concept of DRY (Don’t Repeat Yourself). You cover some of these but together they apply to DRY. 
 
@@ -151,25 +160,25 @@ p {
   - selector abstraction, ie: if you’re setting multiple classes to the same properties combine them to one class, then if you need to differentiate add a sub-class
   - remembering order in CSS matters!
 
-also:
- - there are other shorthand CSS properties worth mentioning:
+- also:
+  - there are other shorthand CSS properties worth mentioning:
 
-```
-font: 16px/18px bold italic sans-serif;
-/* size/line-height weight style family */
+    ```
+    font: 16px/18px bold italic sans-serif;
+    /* size/line-height weight style family */
 
-background: #000 url(image.jpg) no-repeat center top;
-/* color image repeat x-pos y-pos */
+    background: #000 url(image.jpg) no-repeat center top;
+    /* color image repeat x-pos y-pos */
 
-list-style: disc inside none;
-/* style position image */
+    list-style: disc inside none;
+    /* style position image */
 
-margin or padding: 0 10px 0 10px / 0 10px 0 / 0 10px;
-/* top right bottom left / top right&left bottom / top&bottom right&left */
+    margin or padding: 0 10px 0 10px / 0 10px 0 / 0 10px;
+    /* top right bottom left / top right&left bottom / top&bottom right&left */
 
-border: 3px solid #ccc;
-/* width style color */
-```
+    border: 3px solid #ccc;
+    /* width style color */
+    ```
 
 ## Day 05: Web Design and Process
 
@@ -218,21 +227,21 @@ border: 3px solid #ccc;
    - add group class to parent container to self clear any elements inside of it.
    - allows for not needing a subsequent or empty element to extend height of container.
 
-```
-/* clearfix */
-  
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  zoom: 1;
-}
-```
+    ```
+    /* clearfix */
+      
+    .group:before,
+    .group:after {
+      content: "";
+      display: table;
+    }
+    .group:after {
+      clear: both;
+    }
+    .group {
+      zoom: 1;
+    }
+    ```
 
 __Additional Reading:__
 
@@ -256,15 +265,16 @@ __Additional Reading:__
 - mention background images using CSS for layout vs. inline images using `<img>` tag for content
 - when using a background image and still want descriptive text for accessibility
   - using the text-indent property can get rid of text from viewport: 
-```
-.logo {
-background: url(logo.png);
-display: block;
-height: 100px;
-width: 200px;
-text-indent: -9999px;
-}
-```
+    
+    ```
+    .logo {
+    background: url(logo.png);
+    display: block;
+    height: 100px;
+    width: 200px;
+    text-indent: -9999px;
+    }
+    ```
 
 ### individual slides:
 - 06 & 09: mention html5 audio and video elements explained [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video).
