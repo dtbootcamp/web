@@ -38,7 +38,45 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 
 - mention new html5 elements for improved semantics from html4: 
 
-  - Section  - Header  - Footer  - Aside  - Nav  - Article  - Main  - Figure/figcaption  - Time  
+  - Section
+  - Header
+  - Footer
+  - Aside
+  - Nav
+  - Article
+  - Main
+  - Figure/figcaption
+  - Time  
+  
+  - for example, the difference from html4 to html5 using the `<aside>` element would look like:
+  
+  ```
+  <!— html4 —>
+  <div class="sidebar">
+    <!-- ... -->
+  </div>
+  
+  <!— html5 —>
+  <aside>
+    <!-- ... -->
+  </aside>
+  ```
+  
+  - another example:
+  
+  ```
+  <section>
+    <header>
+      <h1>A heading of a section</h1>
+      <p>Some content in the header.</p>
+    </header>
+    <p>Some stuff within the section.</p>
+    <footer>
+      <p>By "Blogger Name"</p>
+    </footer>
+  </section>
+  ```
+  
 
 ### individual slides:
 - 12 & 13: add some words to the un-ordered list tags so they aren’t empty (not sure if this is because I’m viewing the file in keynote)
@@ -49,24 +87,27 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 - for the homework assignment they can also create a boilerplate template that can be loaded in Sublime with a shortcut command (super helpful!)
 
 ## Day 04: CSS
+### overall:
+- describe what CSS3 is and what the new properties are that come with it
+
 ### individual slides:
 - 11: say why this (over specificity) is a bad practice and to be avoided at all costs! 
   - also this is somewhat confusing because you can use the wildcard * to select all elements, for example:
 
-css:
+  css:
 
-```
-body * { font-weight: normal; }
-#stockTicker { font: 12px Verdana; }
-.corpName { font-weight: bold; }
-.stockUp { color: red; }
-```
+  ```
+  body * { font-weight: normal; }
+  #stockTicker { font: 12px Verdana; }
+  .corpName { font-weight: bold; }
+  .stockUp { color: red; }
+  ```
 
-html:
+  html:
 
-`<div id="section">`
-   `NYS: <span class="corpName"><span class="stockUp">GE</span></span>`
-`</div>`
+  `<div id="section">`
+     `NYS: <span class="corpName"><span class="stockUp">GE</span></span>`
+  `</div>`
 
 
 
@@ -136,6 +177,7 @@ border: 3px solid #ccc;
 - great visuals but some text to compliment would be really helpful. Could be a separate document in the form of notes?
 - think this should be split into 2 separate slide shows. One titled “The Web Design Process” and another titled “The Box Model and Positioning with CSS”
 - mention the [collapsing margins problem](http://www.w3.org/TR/CSS2/box.html#collapsing-margins).
+- probably not worth going into great detail about but worth mentioning the [document outline](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document) for organizing content in web pages.
 
 ### individual slides:
 - 10: related: should we explain or at least mention templates that exist already such as bootstrap?
@@ -215,8 +257,13 @@ __Additional Reading:__
 - when using a background image and still want descriptive text for accessibility
   - using the text-indent property can get rid of text from viewport: 
 ```
-.logo {background: url(logo.png);display: block;height: 100px;width: 200px;
-text-indent: -9999px;}
+.logo {
+background: url(logo.png);
+display: block;
+height: 100px;
+width: 200px;
+text-indent: -9999px;
+}
 ```
 
 ### individual slides:
