@@ -8,7 +8,7 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 ### individual slides:
 
 - 26: fix grammar: “Didn’t found 404 error HTTP respond” > “Didn’t find / 404 HTTP response”
-- 29: example of the bold tag `<b>` isn’t good because we don’t use it anymore. 
+- 29: example of the bold tag `<b>` ~~isn’t good because we don’t use it anymore.~~ (semantic meaning has changed in html5)
 - 34: server side programming: add “databases” as an example. Not many people will know what SQL is.
 - 35: server side languages: add UNIX, Python, Ruby
 - 36: diagram is a little confusing, maybe re-work it?
@@ -17,6 +17,8 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 ## Day 02:
 ### overall: 
 - looks unfinished? Could explain more about DOM tags? Day Two seems a little weak?
+- talk about how important ""semantics" are in HTML, for example why use `<section>` or `<header>` over `<div>`?
+- mention differences in html declaration, meta, script and link tags from html4 to html5 (basically they've been simplified) 
 
 ### individual slides:
 
@@ -32,7 +34,11 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 
 ## Day 03: More HTML and Intro to CSS
 ### overall:
-~~!important: I don’t have power point on my machine so the fonts get messed up. Save as PDF?~~
+~~!important: I don’t have power point on my machine so the fonts get messed up. Save as PDF?~~ 
+
+- mention new html5 elements for improved semantics from html4: 
+
+  - Section  - Header  - Footer  - Aside  - Nav  - Article  - Main  - Figure/figcaption  - Time  
 
 ### individual slides:
 - 12 & 13: add some words to the un-ordered list tags so they aren’t empty (not sure if this is because I’m viewing the file in keynote)
