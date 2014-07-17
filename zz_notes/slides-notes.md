@@ -12,7 +12,7 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 - 34: server side programming: add “databases” as an example. Not many people will know what SQL is.
 - 35: server side languages: add UNIX, Python, Ruby
 - 36: diagram is a little confusing, maybe re-work it?
-- 37: not all webpages use databases
+- 37: not all webpages use databases (for example one page websites)
 
 ## Day 02:
 ### overall: 
@@ -48,17 +48,17 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
   - Figure/figcaption
   - Time  
   
-  - for example, the difference from html4 to html5 using the `<aside>` element would look like:
+- for example, the difference from html4 to html5 using the new `<aside>` element would look like:
   
   ```
   <!— html4 —>
   <div class="sidebar">
-    <!-- ... -->
+    <!-- content here -->
   </div>
   
   <!— html5 —>
   <aside>
-    <!-- ... -->
+    <!-- content here -->
   </aside>
   ```
   
@@ -92,12 +92,14 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 
   - Border Radius
   - Box Shadow
-  - Text Shadow
   - Box Sizing
   - Multiple Backgrounds
   - Color
   - Opacity
-  - Gradients
+  - Gradients 
+- talk about the @font-face attribute
+- talk about text shadows
+- mention CSS compilers like Sass and Less (just that they exist and why they are useful we obvious aren't going to teach them).
 
 ### individual slides:
 - 11: say why this (over specificity) is a bad practice and to be avoided at all costs! 
@@ -226,22 +228,23 @@ The use of the * selector should be minimized as it is a slow selector, especial
    - recommended method
    - add group class to parent container to self clear any elements inside of it.
    - allows for not needing a subsequent or empty element to extend height of container.
+   - __css code:__
 
-    ```
-    /* clearfix */
-      
-    .group:before,
-    .group:after {
-      content: "";
-      display: table;
-    }
-    .group:after {
-      clear: both;
-    }
-    .group {
-      zoom: 1;
-    }
-    ```
+      ```
+      /* clearfix */
+        
+      .group:before,
+      .group:after {
+        content: "";
+        display: table;
+      }
+      .group:after {
+        clear: both;
+      }
+      .group {
+        zoom: 1;
+      }
+      ```
 
 __Additional Reading:__
 
@@ -292,7 +295,7 @@ __Stuff to add to the JS curriculum:__
 - mention libraries
 
 ### individual slides:
-- 9: go over language differences between Java (Processing) and JS
+- 9: go over language differences between Java (Processing) and JS in more detail? Maybe make examples more relevant to Processing?
 
 ## Day 12: JS Continued
 
