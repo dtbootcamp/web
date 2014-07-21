@@ -97,7 +97,8 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
   - Color
   - Opacity
   - Gradients 
-  
+
+- mention 'key words' in CSS and how some of them have equivalent mathematical terms.
 - talk about the @font-face attribute, other ways of using external fonts, the concept of fallback fonts and how to use unicode characters.
 - talk about text shadows
 - mention CSS compilers like Sass and Less (just that they exist and why they are useful --we obvious aren't going to teach them).
