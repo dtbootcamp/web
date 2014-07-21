@@ -97,9 +97,9 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
   - Color
   - Opacity
   - Gradients 
-- talk about the @font-face attribute
+- talk about the @font-face attribute and other ways of using external fonts and unicode characters
 - talk about text shadows
-- mention CSS compilers like Sass and Less (just that they exist and why they are useful we obvious aren't going to teach them).
+- mention CSS compilers like Sass and Less (just that they exist and why they are useful --we obvious aren't going to teach them).
 
 ### individual slides:
 - 11: say why this (over specificity) is a bad practice and to be avoided at all costs! 
@@ -182,13 +182,15 @@ The use of the * selector should be minimized as it is a slow selector, especial
     /* width style color */
     ```
 
-## Day 05: Web Design and Process
+## Day 05: Web Design Process and CSS Box Model
 
 ### overall:  
 - great visuals but some text to compliment would be really helpful. Could be a separate document in the form of notes?
 - think this should be split into 2 separate slide shows. One titled “The Web Design Process” and another titled “The Box Model and Positioning with CSS”
 - mention the [collapsing margins problem](http://www.w3.org/TR/CSS2/box.html#collapsing-margins).
 - probably not worth going into great detail about but worth mentioning the [document outline](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document) for organizing content in web pages.
+- talk about the issue of "progressive enhancement" (designing so that webpages have fallbacks for older browsers. too many people still use IE6!)
+
 
 ### individual slides:
 - 10: related: should we explain or at least mention templates that exist already such as bootstrap?
