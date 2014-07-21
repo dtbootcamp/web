@@ -84,14 +84,17 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
       <p>By "Blogger Name"</p>
     </footer>
   </section>
-  ```
-  
+  ``` 
 
 ### individual slides:
 - 12 & 13: add some words to the un-ordered list tags so they aren’t empty (not sure if this is because I’m viewing the file in keynote)
 - 14: mention while it is possible to style html with these tags it is more preferable to do it with CSS
-- 26: also mention the `!important` method and inline style attribute `<div style="width:20px;height:20px;background-color:#ffcc00;"></div>`
-  - explain what the preferred method of doing this is and why. Answer [here](http://stackoverflow.com/questions/12013532/inline-style-tags-vs-inline-css-properties) is good.   
+- 26: also mention the `!important` method and inline style attribute `<div style="width:20px;height:20px;background-color:#ffcc00;"></div>` 
+  - explain what the preferred method of doing this is and why. Answer [here](http://stackoverflow.com/  questions/12013532/inline-style-tags-vs-inline-css-properties) is good.   
+- 26: this might also be a good time to explain the concept of accessing an external file via a path, eg:
+  -  `<link rel="style.css">`  
+  - `<link rel="css/style.css">` 	 
+  - `<link rel="../css/style.css">`  
 - 27: you don’t explain what id’s and classes are before mentioning this.
 - for the homework assignment they can also create a boilerplate template that can be loaded in Sublime with a shortcut command (super helpful!)
 
@@ -306,6 +309,10 @@ __Stuff to add to the JS curriculum:__
 - images! GIFs!
 - mention Node JS
 - mention libraries
+
+__have students open the console and code along!__
+- 
+
 
 ### individual slides:
 - 9: go over language differences between Java (Processing) and JS in more detail? Maybe make examples more relevant to Processing?
