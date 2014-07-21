@@ -1,5 +1,13 @@
 BOOTCAMP WEB CURRICULUM SLIDE NOTES
 ======
+#### These are notes on the lecture slides for the Web portion of DT Bootcamp 2014.
+## Overall Curiculum Notes
+- when should we introduce the in-browser dev-tools? Perhaps....
+  - one of the first days to let people mess around with "breaking" a website. This sounds like fun.
+  - Re-introduce it later to show practical applications, for example how you can adjust your CSS styles on the fly.
+  - Show the javascript console during the intro to JS days.
+
+
 ## Day 01:
 
 ### overall: 
@@ -19,6 +27,7 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 - looks unfinished? Could explain more about DOM tags? Day Two seems a little weak?
 - talk about how important ""semantics" are in HTML, for example why use `<section>` or `<header>` over `<div>`?
 - mention differences in html declaration, meta, script and link tags from html4 to html5 (basically they've been simplified) 
+
 
 ### individual slides:
 
