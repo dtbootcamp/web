@@ -309,12 +309,74 @@ __Stuff to add to the JS curriculum:__
 - images! GIFs!
 - mention Node JS
 - mention libraries
+- mention API's
 
-__have students open the console and code along!__
-- 
+### Suggested order of things to introduce:
 
 
-### individual slides:
+#### Why is JS important to learn?
+  - it’s what makes the web dynamic (though now CSS is contributing as well as we saw with the transition property)
+  - show some examples of cool things that use JS
+
+#### Intro to JS slides
+- *have students follow along by typing examples in the console.*
+
+- explain to students that the console is not scary! You can’t break anything :)
+
+### Then, while going through the slides...
+
+#### start with numeric values
+- doing math in console, eg: write an expression that evaluates to 49.
+- doing boolean tests, eg: what does 4 !== 5 evaluate to?
+
+#### Move onto Strings
+- make sure to not do things like: `“some string here’` -- (note the " and ' )
+- escaping characters, newlines, tab stops. eg: `"Quoth the raven:\n\t\"Nevermore!\""`
+- demo concatenation: `'Hello ' + 'World!'`
+- boolean tests with strings: `'MFA DT' === 'MFA TD'` -- returns `false`
+- using the built-in `.length` method: `‘How many characters are in this sentence?’.length;`
+  
+#### Variables
+- explain syntax: variable keyword `var`, variableName, assignment operator `=`, value to be stored, semicolon `;`
+  - eg: `var numberStudents = 15;`
+
+- rules / good practices for naming variables in JS:
+    - no spaces in names
+    - no digits in front of name but digits at end of variable name are okay.
+      - eg: `2students` will break the code but `students2` will not.
+    - camelCase is preferred, underscores are okay.
+      - hereIsAReallyLongVariableName;
+      - here_is_a_really_long_variable_name;
+    - avoid dollar signs (for now) and reserved words & symbols.
+
+- changing variable contents:
+    - no need to use `var` if already assigned and updating value.
+    - using current value to calculate new values: 
+      - `numStudents - 2` or `numStudents -= 2`
+    - variables as substitutes for data they point to: 
+      - `“We have “ + numStudents + “ in our classroom.”` or `halfStudents = numStudents / 2`
+    - can also store strings: `welcomeStudents = “hello class! it’s a pleasure to have you :)”`
+    - length property: `welcomeStudents.length;`
+    - indexing strings (starts at 0) and accessing using .charAt() method: 
+      - `welcomeStudents.charAt(1);` -- returns “e”
+
+- making versitile messages with variables
+  - `var totalStudents = 91; var brooklynStudents = 26; “There are “ + brooklynStudents + “ out of “ + totalStudents + “ in our program.”`
+
+#### From the console to a file
+- linking an external js file using `<script src=“somefile.js”></script>` in either the `<head>` or `<body>` elements.
+- good practices to keep your code clean and human readable.
+  - indenting 2 spaces
+  - camelCase
+  - using comments
+  - using semantics for naming things like variables and functions 
+- don’t forget semi-colons!
+- `console.log()`’ing things: `console.log(brooklynStudents == totalStudents);`
+
+
+
+
+### Notes on individual slides:
 - 9: go over language differences between Java (Processing) and JS in more detail? Maybe make examples more relevant to Processing?
 
 ## Day 12: JS Continued
