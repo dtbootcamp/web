@@ -204,6 +204,7 @@ The use of the * selector should be minimized as it is a slow selector, especial
 - mention the [collapsing margins problem](http://www.w3.org/TR/CSS2/box.html#collapsing-margins).
 - probably not worth going into great detail about but worth mentioning the [document outline](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document) for organizing content in web pages.
 - talk about the issue of "progressive enhancement" (designing so that webpages have fallbacks for older browsers. too many people still use IE6!)
+- talk about responsive design. [Here is a good article](http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/)
 
 
 ### individual slides:
@@ -382,6 +383,8 @@ __Stuff to add to the JS curriculum:__
 ## Day 12: JS Continued
 
 ### overall:
+- explain how to target html elements with `document.querySelector(selectors);`
+- explain debugging with dev-tools and the console.
 
 ### individual slides:
 

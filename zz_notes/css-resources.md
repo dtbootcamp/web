@@ -7,3 +7,4 @@
 - using images in fluid & responsive layout: http://clagnut.com/sandbox/imagetest
 - simplifying workflow for sprites: https://github.com/jakearchibald/sprite-cow
 - when to base64 encode images: http://davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/
+- on mobile / responsive design: http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/
