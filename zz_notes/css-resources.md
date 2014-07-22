@@ -1,10 +1,11 @@
 # CSS Resources For Students:
-- HTML5 boiler plate: html5 boiler plate: http://html5boilerplate.com/
-- on the Z-Index property: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index
-- Reset CSS: http://meyerweb.com/eric/tools/css/reset/
-- Normalize CSS: http://necolas.github.io/normalize.css/
-- on collapsing margins: http://www.w3.org/TR/CSS2/box.html#collapsing-margins
-- using images in fluid & responsive layout: http://clagnut.com/sandbox/imagetest
-- simplifying workflow for sprites: https://github.com/jakearchibald/sprite-cow
-- when to base64 encode images: http://davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/
-- on mobile / responsive design: http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/
+- HTML5 __boiler plate__: html5 boiler plate: http://html5boilerplate.com/
+- on the __Z-Index__ property: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index
+- __Reset__ CSS: http://meyerweb.com/eric/tools/css/reset/
+- __Normalize__ CSS: http://necolas.github.io/normalize.css/
+- on __collapsing margins__: http://www.w3.org/TR/CSS2/box.html#collapsing-margins
+- using __images__ in __fluid & responsive layout__: http://clagnut.com/sandbox/imagetest
+- simplifying workflow for __sprites__: https://github.com/jakearchibald/sprite-cow
+- when to __base64 encode__ images: http://davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/
+- on __mobile / responsive design__: http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/
+- __developer tools__ tips and tricks: http://www.andismith.com/blog/2011/11/25-dev-tool-secrets/

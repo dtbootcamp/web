@@ -6,6 +6,7 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
   - one of the first days to let people mess around with "breaking" a website. This sounds like fun.
   - Re-introduce it later to show practical applications, for example how you can adjust your CSS styles on the fly.
   - Show the javascript console during the intro to JS days.
+- we should talk about or at least mention responsive design.
 
 
 ## Day 01:
@@ -204,7 +205,8 @@ The use of the * selector should be minimized as it is a slow selector, especial
 - mention the [collapsing margins problem](http://www.w3.org/TR/CSS2/box.html#collapsing-margins).
 - probably not worth going into great detail about but worth mentioning the [document outline](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document) for organizing content in web pages.
 - talk about the issue of "progressive enhancement" (designing so that webpages have fallbacks for older browsers. too many people still use IE6!)
-- talk about responsive design. [Here is a good article](http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/)
+- talk about responsive design & the `@media` query. [Here is a good article](http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/)
+  - [MDN page on media queries in CSS](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) 
 
 
 ### individual slides:
