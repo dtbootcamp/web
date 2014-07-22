@@ -207,6 +207,11 @@ The use of the * selector should be minimized as it is a slow selector, especial
 - talk about the issue of "progressive enhancement" (designing so that webpages have fallbacks for older browsers. too many people still use IE6!)
 - talk about responsive design & the `@media` query. [Here is a good article](http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/)
   - [MDN page on media queries in CSS](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) 
+  - the formula `target / context = result` for converting pixels to em's or percentages.
+    - eg: `30px / 10px = 3em`
+    - if your website's total width is 940px, set its elements relative value in percentages
+    - eg: a sidebar is 325px wide. so: `325px/940px = 0.34574468085106 = 34.574468%`
+    - [here](http://responsv.com/flexible-math/) is a good tool for doing this quickly and generating CSS output automatically :)
 
 
 ### individual slides:

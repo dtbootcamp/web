@@ -8,4 +8,5 @@
 - simplifying workflow for __sprites__: https://github.com/jakearchibald/sprite-cow
 - when to __base64 encode__ images: http://davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/
 - on __mobile / responsive design__: http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/
+- tool for __converting pixels to percents__: http://responsv.com/flexible-math/
 - __developer tools__ tips and tricks: http://www.andismith.com/blog/2011/11/25-dev-tool-secrets/
