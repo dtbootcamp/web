@@ -200,18 +200,21 @@ The use of the * selector should be minimized as it is a slow selector, especial
 ## Day 05: Web Design Process and CSS Box Model
 
 ### overall:  
-- great visuals but some text to compliment would be really helpful. Could be a separate document in the form of notes?
-- think this should be split into 2 separate slide shows. One titled “The Web Design Process” and another titled “The Box Model and Positioning with CSS”
-- mention the [collapsing margins problem](http://www.w3.org/TR/CSS2/box.html#collapsing-margins).
+- Great visuals but adding some text to compliment would be really helpful. This could be a separate document in the form of notes that go along with each slide.
+- Think this should be split into 2 separate slide shows. One titled “The Web Design Process” and another titled “The Box Model and Positioning with CSS”
+- talk about using grids consisting of gutters and columns to organize content on web pages.
+- mention accessability in web design as outlined in the [Web Content Accessibility Guidelines](http://www.w3.org/WAI/intro/wcag)
 - probably not worth going into great detail about but worth mentioning the [document outline](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document) for organizing content in web pages.
-- talk about the issue of "progressive enhancement" (designing so that webpages have fallbacks for older browsers. too many people still use IE6!)
+- talk about the issue of "progressive enhancement" (designing so that webpages have fallbacks for older browsers.)
 - talk about responsive design & the `@media` query. [Here is a good article](http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/)
   - [MDN page on media queries in CSS](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) 
-  - the formula `target / context = result` for converting pixels to em's or percentages.
+  - explain the formula: `target / context = result` for converting pixels to em's or percentages.
+    - the default browser text size is 16px but this is a hard number to work with mathematically. So set the body `font-size` property to 10px.
     - eg: `30px / 10px = 3em`
     - if your website's total width is 940px, set its elements relative value in percentages
     - eg: a sidebar is 325px wide. so: `325px/940px = 0.34574468085106 = 34.574468%`
     - [here](http://responsv.com/flexible-math/) is a good tool for doing this quickly and generating CSS output automatically :)
+- mention the [collapsing margins problem](http://www.w3.org/TR/CSS2/box.html#collapsing-margins) in CSS.
 
 
 ### individual slides:
@@ -340,7 +343,12 @@ __Stuff to add to the JS curriculum:__
 
 #### Why is JS important to learn?
   - it’s what makes the web dynamic (though now CSS is contributing as well as we saw with the transition property)
-  - show some examples of cool things that use JS
+  - there are tons of JS libraries out there for making your life easier when doing web design and development.
+  - it's being used increasingly for server side programming with Node JS.
+  - some examples of cool things that use JS
+    - http://nyctaxi.herokuapp.com/
+    - https://www.google.com/maps/preview
+    - http://www.patatap.com/
 
 #### Intro to JS slides
 - *have students follow along by typing examples in the console.*
