@@ -287,7 +287,11 @@ __Additional Reading:__
 ## Day 08: Media on Web
 ### overall:
 - mention iframe?
+- mention SVG
+  - how you can take code from an SVG file you save in illustrator and embed it on a webpage and/or
+  - copy the SVG source code from a webpage, save it to a file and open it in Illustrator.
 - mention methods of image cropping with and without CSS
+- mention responsive image / media sizing using percentages
 - mention image sprites
 - mention background images using CSS for layout vs. inline images using `<img>` tag for content
 - when using a background image and still want descriptive text for accessibility
