@@ -292,7 +292,19 @@ __Additional Reading:__
   - copy the SVG source code from a webpage, save it to a file and open it in Illustrator.
 - mention methods of image cropping with and without CSS
 - mention responsive image / media sizing using percentages
-- mention image sprites
+  - eg:
+    1. Save image larger than needed
+    2. add `max-width: 100%` property to `img` tag at top of your CSS: img { max-width: 100%; } 
+    3. then in the specific image tag set the `max-width` property again to the size you want in %:
+
+   ```
+   .item img {
+     max-width: 26.785%
+   }
+   ```
+   
+  - You can also do this with other media types, eg: embed, video, object, etc.
+- mention image sprites (ie having an image icon in multiple states saved in the same file, then adjusting using CSS to show the correct icon / state for things like `:hover`)
 - mention background images using CSS for layout vs. inline images using `<img>` tag for content
 - when using a background image and still want descriptive text for accessibility
   - using the text-indent property can get rid of text from viewport: 
@@ -398,6 +410,7 @@ __Stuff to add to the JS curriculum:__
 - explain debugging with dev-tools and the console.
 
 ### individual slides:
+- no slides for this class as students will code along with the dot-js example [here](https://github.com/dtbootcamp/web/blob/master/day_11_12/dot-generator-no-app.html)
 
 
 
