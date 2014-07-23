@@ -335,7 +335,7 @@ __Stuff to add to the JS curriculum:__
 - mention libraries
 - mention API's
 
-### Suggested order of things to introduce:
+### Suggested order of topics to introduce:
 
 
 #### Why is JS important to learn?
@@ -410,7 +410,7 @@ __Stuff to add to the JS curriculum:__
 - explain debugging with dev-tools and the console.
 
 ### individual slides:
-- no slides for this class as students will code along with the dot-js example [here](https://github.com/dtbootcamp/web/blob/master/day_11_12/dot-generator-no-app.html)
+- no slides for this class as students will code along with the dot-js	 example [here](https://github.com/dtbootcamp/web/blob/master/day_11_12/dot-generator-no-app.html)
 
 
 
