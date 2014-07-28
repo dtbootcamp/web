@@ -1,4 +1,4 @@
-# CSS Resources For Students:
+# HTML & CSS Resources For Students:
 - HTML5 __boiler plate__: html5 boiler plate: http://html5boilerplate.com/
 - on the __Z-Index__ property: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index
 - __Reset__ CSS: http://meyerweb.com/eric/tools/css/reset/
@@ -10,3 +10,8 @@
 - on __mobile / responsive design__: http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point/
 - tool for __converting pixels to percents__: http://responsv.com/flexible-math/
 - __developer tools__ tips and tricks: http://www.andismith.com/blog/2011/11/25-dev-tool-secrets/
+- CSS __Font Stack__: http://cssfontstack.com/
+- Embedding __SVG__ in webpages: 
+  - A List Apart article http://alistapart.com/article/using-svg-for-flexible-scalable-and-fun-backgrounds-part-ii
+  - CSS Tricks article http://css-tricks.com/svg-use-external-source/
+  - MDN reference: https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute
