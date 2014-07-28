@@ -7,6 +7,7 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
   - Re-introduce it later to show practical applications, for example how you can adjust your CSS styles on the fly.
   - Show the javascript console during the intro to JS days.
 - we should talk about or at least mention responsive design.
+- mention Forms in HTML? (HTML & CSS has a good overview on chapter 7)
 
 
 ## Day 01:
@@ -26,7 +27,7 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 ## Day 02:
 ### overall: 
 - looks unfinished? Could explain more about DOM tags? Day Two seems a little weak?
-- talk about how important ""semantics" are in HTML, for example why use `<section>` or `<header>` over `<div>`?
+- talk about how important ""semantics" are in HTML, for example why use `<section>` or `<header>` over `<div class="section">`?
 - mention differences in html declaration, meta, script and link tags from html4 to html5 (basically they've been simplified) 
 
 
@@ -46,6 +47,8 @@ BOOTCAMP WEB CURRICULUM SLIDE NOTES
 ### overall:
 ~~!important: I don’t have power point on my machine so the fonts get messed up. Save as PDF?~~ 
 
+- talk about the `<table>` element with the table row `<tr>` and table data `<td>` elements.
+  - the book *HTML and CSS* has good info on this in Chapter 6
 - mention new html5 elements for improved semantics from html4: 
 
   - Section
@@ -321,6 +324,16 @@ __Additional Reading:__
     text-indent: -9999px;
     }
     ```
+
+__Using Images:__
+
+- what file types are used in web? (JPG / JPEG, GIF, PNG)
+  - when should you use what file type and why? 
+  - (GIF for super simple animations, PNG for only a few colors, JPG lots of colors)
+- saving images at the right size and resolution (resolution doesn't matter so much where as size does)
+- measuring images in pixels
+- talk about places to get stock photos:
+  - www.istockphoto.com  - www.gettyimages.com  - www.veer.com  - www.sxc.hu  - www.fotolia.com  
 
 ### individual slides:
 - 06 & 09: mention html5 audio and video elements explained [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video).
